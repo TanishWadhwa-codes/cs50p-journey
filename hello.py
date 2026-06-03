@@ -7,7 +7,6 @@ name = input("What is your name?")
 print("hello,")
 print(name)
 
-
 #B
 #ask user for it's name
 name = input("What is your name?")
