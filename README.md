@@ -2,6 +2,7 @@
 
 This repository tracks my progress, implementation logic, and key takeaways as I complete Harvard University's introduction to computer science using Python.
 
+
 ## 🛠️ Problem Set 0: Functions & Variables
 
 ### 1. Indoor Voice
@@ -47,5 +48,40 @@ This repository tracks my progress, implementation logic, and key takeaways as I
 5. **Meal Time**
 **Objective**: Program a schedule checker that inputs a time string (24-hour format) and outputs whether it falls within breakfast, lunch, or dinner intervals.
 **Key Concept**: Authored custom parsing logic to convert time strings into a unified floating-point hours system ($hours + \frac{minutes}{60}$) to handle numeric range comparisons.
+
+
+# CS50P - Problem Set 2: Loops
+
+This repository contains my solutions to the problems from Problem Set 2 of [CS50's Introduction to Programming with Python](https://cs50.harvard.edu/python/). 
+
+## 🚀 Problems Overview
+
+### 1. camelCase (`camel.py`)
+A program that prompts the user for the name of a variable in camelCase and outputs the corresponding name in snake_case.
+* **Concepts:** String manipulation, loops, conditional statements.
+* **Example:** `firstName` $\rightarrow$ `first_name`
+
+### 2. Coke Machine (`coke.py`)
+A program that simulates a vending machine selling a bottle of Coca-Cola for 50 cents. It only accepts coins in denominations of 25, 10, and 5 cents, informs the user of the amount due, and calculates any change owed.
+* **Concepts:** `while` loops, arithmetic operations, user input validation.
+
+### 3. Just setting up my twttr (`twttr.py`)
+A program that prompts the user for a string of text and then outputs that same text but with all vowels (A, E, I, O, U) omitted, whether inputted in uppercase or lowercase.
+* **Concepts:** String filtering, member checking (`in` operator).
+* **Example:** `Twitter` $\rightarrow$ `Twttr`
+
+### 4. Vanity Plates (`plates.py`)
+A program that validates requirements for custom license plates based on specific rules (must start with at least two letters, maximum of 6 characters, numbers must come at the end and cannot start with a '0', no periods or spaces).
+* **Concepts:** Functions, custom validation logic, string methods (`.isalpha()`, `.isdigit()`, `.isalnum()`).
+
+### 5. Nutrition Facts (`nutrition.py`)
+A program that prompts users to input a fruit (case-insensitively) and then outputs the number of calories in one portion of that fruit, matching the official FDA guidelines for the 20 most common fruits.
+* **Concepts:** Dictionaries (`dict`), case-insensitive lookups, dictionary key checking.
+* **Example:** `Apple` $\rightarrow$ `Calories: 130`
+
 ---
 *Progress tracking logged manually as tasks are verified and submitted via check50.*
+
+
+
+
